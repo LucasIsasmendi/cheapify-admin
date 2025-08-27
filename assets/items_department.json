@@ -1,0 +1,228 @@
+{
+  "salad": [
+    "tomato",
+    "avocado",
+    { "bags": [
+      "babyleaf rocket",
+      "wild rocket",
+      "rocket",
+      "baby leaf",
+      "butterhead",
+      "spinach"
+    ]}
+  ],
+  "prtn": [
+    "tofu",
+    "tempeh",
+    "seitan",
+    {"beans": [
+      "butter bean",
+      "cannelli bean",
+      "red kidney bean",
+      "mixed beans",
+      "black beans",
+      "beans"
+    ]},
+    {"lentils": [
+      "green lentils",
+      "red split lentils",
+      "lentils"
+    ]},
+    {"peas": [
+      "yellow peas",
+      "split peas",
+      "petit pois",
+      "garden peas"
+    ]}
+  ],
+  "pbvsn": [
+   { "milk": [
+    "soya",
+    "oat",
+    "coconut",
+    "almond"
+   ]},
+    "mayo",
+    { "cheese": [
+      "soft", 
+      "slice", 
+      "parmesan", 
+      "grated", 
+      "soft garlic & herbs", 
+      "cheddar", 
+      "cream",
+      "coconut",
+      "smoky",
+      "applewood",
+      "camembert",
+      "cheese"
+    ]},
+    {"meat free": [
+      "chicken breast",
+      "chicken",
+      "salmon",
+      "shrimpie",
+      "sausages",
+      "bacon rashers",
+      "bacon",
+      "black pudding",
+      "pork",
+      "ham",
+      "bean burger",
+      "burger",
+      "fillets",
+      "chorizo",
+      "mince",
+      "beef mince",
+      "meatball",
+      "steak"
+    ]}
+  ],
+  "vegs": [
+    "sweet potato",
+    "potato",
+    "leeks",
+    "courgette",
+    "pepper",
+    "broccoli florets",
+    "broccoli",
+    "spinach",
+    "swede",
+    "cauliflower",
+    "parsnip",
+    "corn",
+    "sweetcorn",
+    "ginger",
+    "aubergine",
+    "kale",
+    "butternut squash",
+    "garlic",
+    "coriander",
+    "basil",
+    "brussels sprouts",
+    "pak choi",
+    "leaf parsley",
+    "asparagus",
+    "beansprouts",
+    "chillies",
+    "mint",
+    "spring green",
+    "cucumber",
+    "carrot",
+    {"onion": [
+      "brown onion",
+      "red onion",
+      "spring onion",
+      "echalion shallot",
+      "shallot",
+      "onion"
+    ]},
+    {"mushroom": [
+      "baby button",
+      "chestnut",
+      "closed cup",
+      "large flat",
+      "shiitake",
+      "portobello",
+      "oyster",
+      "mushroom"
+    ]},
+    { "cabbage": [
+      "savoy",
+      "sweetheart",
+      "white",
+      "red"
+    ]},
+    { "beans": [
+      "stringless",
+      "fine",
+      "runner"
+    ]},
+    { "mix": [
+      "mixed vegetables",
+      "winter Vegetables",
+      "Vegetable Medley"
+    ]},
+    { "lettuce": [
+      "sweet gem",
+      "romaine",
+      "iceberg"
+    ]}
+  ],
+  "fruit": [
+    "easy peeler",
+    "apple",
+    "apricot",
+    "banana",
+    "blueberries",
+    "cherries",
+    "berries",
+    "grapes",
+    "kiwi",
+    "lemon",
+    "mango",
+    "melon",
+    "nectarine",
+    "orange",
+    "peache",
+    "pear",
+    "pineapple",
+    "plum",
+    "rhubarb",
+    "watermelon",
+    "fruit salad",
+    "coconut",
+    "pomegranate",
+    "strawberries",
+    "raspberries",
+    "cranberries",
+    "blackberries",
+    "clementine",
+    "lime",
+    "grapefruit",
+    "tangerine"
+  ],
+  "sndfm": [
+    {"seeds": [
+      "sunflower seeds",
+      "flax seed",
+      "chia seeds",
+      "pumpkin seeds",
+      "seed mix"
+    ]},
+    {"nuts": [
+      "pine nuts",
+      "mixed nuts",
+      "brazil nuts",
+      "pistachio nuts",
+      "nut selection",
+      "monkey nuts",
+      "pistachio",
+      "walnut",
+      "almonds",
+      "cashews",
+      "hazelnuts",
+      "pecans",
+      "nuts"
+    ]},
+    {"dried fruit": [
+      "raisins and cranberries",
+      "lime infused mango",
+      "tropical fruit mix",
+      "dried mango",
+      "dates",
+      "figs",
+      "prunes",
+      "apricots",
+      "mango",
+      "cranberries",
+      "raisins",
+      "berries",
+      "sultana"
+    ]},
+    {"mixes": [
+      "fruit nut mix",
+      "cherry nut"
+    ]}
+  ]
+}
