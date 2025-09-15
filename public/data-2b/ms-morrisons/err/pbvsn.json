@@ -1,0 +1,170 @@
+{
+  "ts": "2025-09-07T15:17:55.084Z",
+  "items": {
+    "cheese": {
+      "undefined": {
+        "103130078": {
+          "n": "Pure Vegan Dairy Free Sunflower Spread 500g",
+          "p": 1.8,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 500, "u": "g" },
+          "ppuom": "3.60/kg",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/7a4c0f8b-0f5c-47b4-9ff8-e1b1356c8c3c/200x200.jpg"
+        },
+        "103141990": {
+          "n": "Vitalite Dairy Free Spread 500g",
+          "p": 1.9,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 500, "u": "g" },
+          "ppuom": "3.80/kg",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/ee5ffa80-3e86-46d1-963d-4533571e8732/200x200.jpg"
+        },
+        "113697908": {
+          "n": "Flora Plant Butter Spreadable 400g",
+          "p": 3,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 400, "u": "g" },
+          "ppuom": "7.50/kg",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a3c87053-c2b4-40ff-915e-f64e754f14ac/200x200.jpg"
+        },
+        "113697932": {
+          "n": "Flora Unsalted Block Butter Alternative 200g",
+          "p": 1.75,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 200, "u": "g" },
+          "ppuom": "8.75/kg",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/3262d659-a059-44cc-bd89-0d9fa86a4b10/200x200.jpg"
+        },
+        "113698100": {
+          "n": "Flora Salted Block Plant Butter 200g",
+          "p": 1.75,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 200, "u": "g" },
+          "ppuom": "8.75/kg",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a8b1edbd-ccdd-4889-b013-670a0b45894f/200x200.jpg"
+        },
+        "113994857": {
+          "n": "Lurpak Plant Based Alternative to Spreadable or Butter 400g",
+          "p": 4.75,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 400, "u": "g" },
+          "ppuom": "11.88/kg",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/2a124d1c-408e-485f-b0a5-f9e19fc8da10/200x200.jpg"
+        }
+      }
+    },
+    "meat free": {
+      "undefined": {
+        "108450960": {
+          "n": "Cauldron Vegan Organic Marinated Tofu 160g",
+          "p": 3,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 160, "u": "g" },
+          "ppuom": "18.75/kg",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/e988d55e-502b-4d5f-b155-098040c4814b/200x200.jpg"
+        },
+        "110190351": {
+          "n": "Quorn Vegetarian Mozzarella & Pesto Escalopes",
+          "p": 3.15,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 240, "u": "g" },
+          "ppuom": "13.13/kg",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/5edee7cd-f8cf-42b6-b9d2-d59f7aa784fd/200x200.jpg"
+        },
+        "110193923": {
+          "n": "Vivera Veggie Shawarma Kebab 175g",
+          "p": 2.6,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 175, "u": "g" },
+          "ppuom": "14.86/kg",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/d309bb64-9e65-4ea0-b431-fcc47e112e4e/200x200.jpg"
+        },
+        "111461045": {
+          "n": "The Tofoo Co. Naked Tofu 280g",
+          "p": 2.5,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 280, "u": "g" },
+          "ppuom": "0.89/100gram",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/8720bd72-f0b8-4554-911f-047bec4b9e02/200x200.jpg"
+        },
+        "111461213": {
+          "n": "The Tofoo Co. Smoked Tofu 225g",
+          "p": 2.85,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 225, "u": "g" },
+          "ppuom": "12.67/kg",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/58acab7b-98e3-4bdb-8db9-cd25a5439ae2/200x200.jpg"
+        },
+        "112384441": {
+          "n": "The Tofoo Co. Naked Xl 450g",
+          "p": 3.5,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 450, "u": "g" },
+          "ppuom": "7.78/kg",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/ecf969b1-1d16-49c7-a54f-58bce329c9b3/200x200.jpg"
+        },
+        "114113038": {
+          "n": "The Vegetarian Butcher Cod Almighty Battered Fish Alternative 180g",
+          "p": 3.5,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 180, "u": "g" },
+          "ppuom": "1.94/100gram",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/71cfa1ba-7992-48e2-a4c2-b4db048a387c/200x200.jpg"
+        }
+      }
+    },
+    "milk": {
+      "undefined": {
+        "105079907": {
+          "n": "Alpro Hazelnut Long Life Drink 1L",
+          "p": 1.7,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 1, "u": "l" },
+          "ppuom": "1.70/litre",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/3e0ff411-d33a-4ec0-8687-a2184fa8144f/200x200.jpg"
+        },
+        "105541065": {
+          "n": "Koko Long Life Original Plus Calcium Milk Alternative 1L",
+          "p": 1,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 1, "u": "l" },
+          "ppuom": "1.00/litre",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/a87ebcb9-7d1d-41b7-88ec-0b85dd762ac0/200x200.jpg"
+        },
+        "108902612": {
+          "n": "Koko Long Life Dairy Free Unsweetened 1L",
+          "p": 1,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 1, "u": "l" },
+          "ppuom": "1.00/litre",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/d1f67838-3ac3-4129-966b-6eab7b2a06da/200x200.jpg"
+        },
+        "112570489": {
+          "n": "Astonish Protect + Care Anti-Bacterial Handwash Milk & Honey ",
+          "p": 1,
+          "q": 1,
+          "u": "u",
+          "nw": { "t": 600, "u": "ml" },
+          "ppuom": "0.17/100ml",
+          "img": "https://groceries.morrisons.com/images-v3/4b85987b-1398-4173-a0c1-3546047c9d74/0ba2c342-e907-4715-a7d5-4cbe7eb46d9c/200x200.jpg"
+        }
+      }
+    }
+  }
+}

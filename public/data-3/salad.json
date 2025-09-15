@@ -1,0 +1,65 @@
+{
+  "ts": { "ms": "2025-01-20T10:00:00.000Z" },
+  "items": {
+    "tomato": {
+      "000000000000001001": {
+        "n": "Cherry Tomatoes",
+        "p": 1.29,
+        "q": 1,
+        "u": "pac",
+        "nw": { "t": 250, "u": "g" },
+        "img": "https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&w=300"
+      },
+      "000000000000001002": {
+        "n": "Vine Tomatoes",
+        "p": 1.89,
+        "q": 1,
+        "u": "pac",
+        "nw": { "t": 400, "u": "g" },
+        "img": "https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=300"
+      }
+    },
+    "avocado": {
+      "000000000000002001": {
+        "n": "Ripe Avocados",
+        "p": 1.99,
+        "q": 2,
+        "u": "pac",
+        "nw": { "t": 2, "u": "u" },
+        "img": "https://images.pexels.com/photos/557659/pexels-photo-557659.jpeg?auto=compress&cs=tinysrgb&w=300"
+      }
+    },
+    "bags": {
+      "babyleaf rocket": {
+        "000000000000003001": {
+          "n": "Baby Leaf Rocket",
+          "p": 0.89,
+          "q": 1,
+          "u": "bag",
+          "nw": { "t": 60, "u": "g" },
+          "img": "https://images.pexels.com/photos/1656663/pexels-photo-1656663.jpeg?auto=compress&cs=tinysrgb&w=300"
+        }
+      },
+      "wild rocket": {
+        "000000000000003002": {
+          "n": "Wild Rocket",
+          "p": 0.99,
+          "q": 1,
+          "u": "bag",
+          "nw": { "t": 80, "u": "g" },
+          "img": "https://images.pexels.com/photos/1656663/pexels-photo-1656663.jpeg?auto=compress&cs=tinysrgb&w=300"
+        }
+      },
+      "spinach": {
+        "000000000000003003": {
+          "n": "Baby Spinach",
+          "p": 0.79,
+          "q": 1,
+          "u": "bag",
+          "nw": { "t": 120, "u": "g" },
+          "img": "https://images.pexels.com/photos/2325843/pexels-photo-2325843.jpeg?auto=compress&cs=tinysrgb&w=300"
+        }
+      }
+    }
+  }
+}

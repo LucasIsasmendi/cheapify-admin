@@ -1,26 +1,125 @@
-<div class="mat-elevation-z8">
-  <table mat-table class="full-width-table" matSort aria-label="Elements">
-    <!-- Id Column -->
-    <ng-container matColumnDef="id">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header>Id</th>
-      <td mat-cell *matCellDef="let row">{{row.id}}</td>
-    </ng-container>
+<div class="table-container">
+  <!-- Filter Section -->
+  <mat-card class="filter-card">
+    <mat-card-header>
+      <mat-card-title>Data-3 Product Table</mat-card-title>
+      <mat-card-subtitle>Filter products by category and supermarket</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="filter-section">
+        <div class="filter-group">
+          <h3>Categories</h3>
+          <div class="filter-chips">
+            @for (cat of categories; track cat.id) {
+              <mat-chip-option 
+                [selected]="(isCategorySelected(cat.id) | async) || false"
+                (click)="selectCategory(cat.id)">
+                {{cat.name}}
+              </mat-chip-option>
+            }
+          </div>
+        </div>
+        <div class="filter-group">
+          <h3>Supermarkets</h3>
+          <div class="filter-chips">
+            @for (supermarket of supermarkets; track supermarket.id) {
+              <mat-chip-option 
+                [selected]="(isSupermarketSelected(supermarket.id) | async) || false"
+                (click)="selectSupermarket(supermarket.id)">
+                {{supermarket.name}}
+              </mat-chip-option>
+            }
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
 
-    <!-- Name Column -->
-    <ng-container matColumnDef="name">
-      <th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
-      <td mat-cell *matCellDef="let row">{{row.name}}</td>
-    </ng-container>
+  <!-- Table Section -->
+  <div class="mat-elevation-z8 table-wrapper">
+    <table mat-table [dataSource]="dataSource" class="full-width-table" matSort aria-label="Product Elements">
+      
+      <!-- Image Column -->
+      <ng-container matColumnDef="image">
+        <th mat-header-cell *matHeaderCellDef>Image</th>
+        <td mat-cell *matCellDef="let row">
+          @if (row.image) {
+            <div class="product-image">
+              <img [src]="row.image" [alt]="row.name" (error)="onImageError($event)">
+            </div>
+          } @else {
+            <div class="no-image">
+              <mat-icon>image</mat-icon>
+            </div>
+          }
+        </td>
+      </ng-container>
 
-    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-  </table>
+      <!-- Name Column -->
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
+        <td mat-cell *matCellDef="let row" class="name-cell">
+          <div class="product-name">{{row.name}}</div>
+          <div class="product-id">ID: {{row.id}}</div>
+        </td>
+      </ng-container>
 
-  <mat-paginator #paginator
-      [length]="dataSource.data.length"
-      [pageIndex]="0"
-      [pageSize]="10"
-      [pageSizeOptions]="[5, 10, 20]"
-      aria-label="Select page">
-  </mat-paginator>
+      <!-- Subcategory Column -->
+      <ng-container matColumnDef="subcategory">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Subcategory</th>
+        <td mat-cell *matCellDef="let row">
+          @if (row.subcategory) {
+            <div class="subcategory-badge">{{row.subcategory}}</div>
+          } @else {
+            <span class="no-data">-</span>
+          }
+        </td>
+      </ng-container>
+
+      <!-- Price Column -->
+      <ng-container matColumnDef="price">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header>Price</th>
+        <td mat-cell *matCellDef="let row">
+          <div class="price-cell">
+            <div class="price">{{(row.price || 0) / 100 | currency:'GBP':'symbol':'1.2-2'}}</div>
+            @if (row.pricePerUnit) {
+              <div class="price-per-unit">{{row.pricePerUnit}}</div>
+            }
+          </div>
+        </td>
+      </ng-container>
+
+      <!-- Net Weight Column -->
+      <ng-container matColumnDef="netWeight">
+        <th mat-header-cell *matHeaderCellDef>Weight/Quantity</th>
+        <td mat-cell *matCellDef="let row">
+          <div class="weight-info">
+            @if (row.netWeight) {
+              <div class="net-weight">
+                <mat-icon>monitor_weight</mat-icon>
+                <span>{{row.netWeight.t}} {{row.netWeight.u}}</span>
+              </div>
+            }
+            @if (row.quantity && row.unit) {
+              <div class="quantity">
+                <mat-icon>scale</mat-icon>
+                <span>{{row.quantity}} {{row.unit}}</span>
+              </div>
+            }
+          </div>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+    <mat-paginator #paginator
+        [length]="dataSource.data.length"
+        [pageIndex]="0"
+        [pageSize]="25"
+        [pageSizeOptions]="[10, 25, 50, 100]"
+        aria-label="Select page">
+    </mat-paginator>
+  </div>
 </div>
